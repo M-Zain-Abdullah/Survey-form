@@ -9,9 +9,9 @@
   body {
     font-family: 'Raleway', sans-serif;
     background-image: url(https://media.npr.org/assets/img/2014/03/28/rs_m-r_pointing-d680d6df2b3e34b9360aea33a009af9f40308c58.jpg?s=1100&c=50&f=jpeg);
-    width: 100%;
+    width: auto;
     height: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-color: #45b6eb;
     color: #fff;
@@ -20,7 +20,7 @@
 
   #heading {
     max-width: 750px;
-    margin: 4rem auto;
+    margin: 1.1rem auto;
     padding: .6rem;
   }
   #main {
