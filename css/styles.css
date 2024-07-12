@@ -58,24 +58,12 @@
     background: rgb(9, 168, 89);
   }
 
-  #button-area {
-    font-size: 1.0rem;
-  }
-
-  #checkbox {
-    font-size: 1.0rem;
-  }
-
 .form {
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
   font-size: 1.0rem;
   border: none;
-}
-
-label {
-  font-size: 1.0rem;
 }
 
   @media only screen and (max-width:480px){
