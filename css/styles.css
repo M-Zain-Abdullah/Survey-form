@@ -12,10 +12,10 @@
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-color: #45b6eb;
     color: #fff;
-    font-size: 3vw;
+    font-size: 1.2vw;
    }
 
   #heading {
@@ -28,14 +28,14 @@
   }
 
   #title {
-    font-size: 5rem;
+    font-size: 2.2rem;
     text-align: center;
     line-height: 1.2;
     padding: .6rem;
   }
 
   #description {
-    font-size: 4rem;
+    font-size: 1.1rem;
     text-align: center;
     padding: .2rem;
   }
@@ -50,7 +50,7 @@
     background: #22d87d;
     color: #fff;
     padding: .7rem;
-    font-size: 4rem;
+    font-size: 1.15rem;
     cursor: pointer;
   }
 
@@ -58,13 +58,25 @@
     background: rgb(9, 168, 89);
   }
 
+  #button-area {
+    font-size: 1.1rem;
+  }
+
+  #checkbox {
+    font-size: 1.1rem;
+  }
+
 .form {
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 3rem;
+  font-size: 1rem;
   border: none;
 }
+label {
+  font-size: 1.5rem;
+}
+
 
   @media only screen and (max-width:480px){
 
