@@ -9,8 +9,10 @@
   body {
     font-family: 'Raleway', sans-serif;
     background-image: url(https://media.npr.org/assets/img/2014/03/28/rs_m-r_pointing-d680d6df2b3e34b9360aea33a009af9f40308c58.jpg?s=1100&c=50&f=jpeg);
-    width: auto;
+    width: 100%;
     height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #45b6eb;
     color: #fff;
     font-size: 1.2vw;
@@ -18,7 +20,7 @@
 
   #heading {
     max-width: 750px;
-    margin: 1.1rem auto;
+    margin: 4rem auto;
     padding: .6rem;
   }
   #main {
@@ -57,24 +59,24 @@
   }
 
   #button-area {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
   #checkbox {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
 .form {
   width: 100%;
   padding: .7rem;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 1.0rem;
   border: none;
 }
-label {
-  font-size: 1.5rem;
-}
 
+label {
+  font-size: 1.0rem;
+}
 
   @media only screen and (max-width:480px){
 
